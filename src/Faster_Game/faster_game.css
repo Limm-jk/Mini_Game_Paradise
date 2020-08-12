@@ -6,3 +6,26 @@
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(5, 1fr);
 }
+.startButton{
+    margin-top: 30px;
+    width: 100px;
+    height: 50px;
+}
+.timerContainer{
+    margin-top: 30px;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.timerFront{
+    text-align: right;
+}
+.timerBack{
+    width: 1em;
+}
+.central{
+    transform: translate(0%, 20%);
+}

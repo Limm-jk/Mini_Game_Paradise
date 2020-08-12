@@ -16,11 +16,16 @@ import React, { Component } from "react";
 function Cell( { num, handleClick } ) {
     console.log("Cell");
     const style = {
-        border: '1px solid red'
+        border: '1px solid red',
+    }
+    const num_style = {
+        transform: 'translate(0%, 120%)'
     }
     return (
         <div style={style} onClick={() => handleClick(num)}>
-            {num !== 0 ? num : null}
+            <center style={num_style}>
+                <b>{num !== 0 ? num : null}</b>
+            </center>
         </div>
     );
 }

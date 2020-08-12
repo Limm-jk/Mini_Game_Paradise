@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import FasterApp from './Faster_Game/FasterApp';
+// import FasterApp from './Faster_Game/FasterApp';
 import * as serviceWorker from './serviceWorker';
+import Root from './Root';
 
 ReactDOM.render(
   <React.StrictMode>
-    <FasterApp/>
+    <Root/>
   </React.StrictMode>,
   document.getElementById('root')
 );
