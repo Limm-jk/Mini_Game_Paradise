@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Mini_Game_Paradise/static/css/main.19e03f37.chunk.css",
+    "main.js": "/Mini_Game_Paradise/static/js/main.32c0be1c.chunk.js",
+    "main.js.map": "/Mini_Game_Paradise/static/js/main.32c0be1c.chunk.js.map",
+    "runtime-main.js": "/Mini_Game_Paradise/static/js/runtime-main.0b3bf2cb.js",
+    "runtime-main.js.map": "/Mini_Game_Paradise/static/js/runtime-main.0b3bf2cb.js.map",
+    "static/js/2.b3525acc.chunk.js": "/Mini_Game_Paradise/static/js/2.b3525acc.chunk.js",
+    "static/js/2.b3525acc.chunk.js.map": "/Mini_Game_Paradise/static/js/2.b3525acc.chunk.js.map",
+    "index.html": "/Mini_Game_Paradise/index.html",
+    "precache-manifest.ee045aaa28b839e5d91185026b5ede40.js": "/Mini_Game_Paradise/precache-manifest.ee045aaa28b839e5d91185026b5ede40.js",
+    "service-worker.js": "/Mini_Game_Paradise/service-worker.js",
+    "static/css/main.19e03f37.chunk.css.map": "/Mini_Game_Paradise/static/css/main.19e03f37.chunk.css.map",
+    "static/js/2.b3525acc.chunk.js.LICENSE.txt": "/Mini_Game_Paradise/static/js/2.b3525acc.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0b3bf2cb.js",
+    "static/js/2.b3525acc.chunk.js",
+    "static/css/main.19e03f37.chunk.css",
+    "static/js/main.32c0be1c.chunk.js"
+  ]
+}
