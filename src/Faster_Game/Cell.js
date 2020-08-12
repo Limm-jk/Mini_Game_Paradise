@@ -18,7 +18,11 @@ function Cell( { num, handleClick } ) {
     const style = {
         border: '1px solid red'
     }
-    return <div style={style} onClick={() => handleClick(num)}>{num}</div>;
+    return (
+        <div style={style} onClick={() => handleClick(num)}>
+            {num !== 0 ? num : null}
+        </div>
+    );
 }
 
 // const Container = styled.div`

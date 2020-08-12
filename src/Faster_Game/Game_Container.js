@@ -41,7 +41,18 @@ function Game_Container() {
     const [timeElapsed, setTimeElapsed] = useState(0);
 
     const handleClick = num => {
-        console.log(num);
+        if(num === current) {
+            if(num === 50) {
+                console.log("Success");
+            }
+            const index = numbers.indexOf(num);
+            setNumbers(numbers => [
+                ...numbers.slice(0, index),
+                num < 26 ? num + 25 : 0,
+                ...numbers.slice(index+1)
+            ]);
+            setCurrent(current => current + 1);
+        }
     };
 
     const style = {
